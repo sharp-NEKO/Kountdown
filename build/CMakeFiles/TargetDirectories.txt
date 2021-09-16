@@ -1,0 +1,12 @@
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/edit_cache.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/test.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/rebuild_cache.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/KF5CoreAddons_QCH.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/KF5I18n_QCH.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/fetch-translations.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles/uninstall.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/rebuild_cache.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/edit_cache.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/test.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld.dir
+/home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld_autogen.dir

@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "helloworld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KF5CoreAddons_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF5CoreAddons_QCH-6cd61ded1001b36fb142.json",
+					"name" : "KF5CoreAddons_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KF5I18n_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF5I18n_QCH-9a8559847ef4e26dd9d5.json",
+					"name" : "KF5I18n_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fetch-translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fetch-translations-f25a4b96c851b5dcc2b9.json",
+					"name" : "fetch-translations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "helloworld::@145eef247bfb46b6828c",
+					"jsonFile" : "target-helloworld-d69f0dfe091e7e8e2568.json",
+					"name" : "helloworld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "helloworld_autogen::@145eef247bfb46b6828c",
+					"jsonFile" : "target-helloworld_autogen-f4eacab06e76c2792b1c.json",
+					"name" : "helloworld_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-440380b9a80def120416.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sharp/Documents/Qt_Learn/kounter/build",
+		"source" : "/home/sharp/Documents/Qt_Learn/kounter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
