@@ -1,3 +1,3 @@
 # Kountdownについて
-KDEのKirigamiを用いてこのアプリを作っています。
-Kirigamiページを読みながらドキュメントもプログラムのUIも翻訳してます。
+KDEのKirigamiを用いてこのアプリを作っています。  
+Kirigamiページを読みながらドキュメントもプログラムのUIも翻訳してます。  
