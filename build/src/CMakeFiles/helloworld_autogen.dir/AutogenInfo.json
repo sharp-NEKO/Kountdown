@@ -14,7 +14,6 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
 		"QT_QUICKCONTROLS2_LIB",
@@ -77,7 +76,7 @@
 	"MOC_PATH_PREFIX" : true,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/bin/x86_64-linux-gnu-g++-9",
 		"-dM",
 		"-E",
 		"-c",

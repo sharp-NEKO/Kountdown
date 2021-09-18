@@ -62,46 +62,46 @@ src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp: src/CMakeFiles/helloworld_a
 src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp: ../src/contents/ui/main.qml
 src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/cmake -E cmake_autorcc /home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/cmake -E cmake_autorcc /home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o: src/CMakeFiles/helloworld.dir/flags.make
 src/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o: src/helloworld_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp > CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp > CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp -o CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/mocs_compilation.cpp -o CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/helloworld.dir/main.cpp.o: src/CMakeFiles/helloworld.dir/flags.make
 src/CMakeFiles/helloworld.dir/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/helloworld.dir/main.cpp.o"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/main.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/main.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp
 
 src/CMakeFiles/helloworld.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/main.cpp.i"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp > CMakeFiles/helloworld.dir/main.cpp.i
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp > CMakeFiles/helloworld.dir/main.cpp.i
 
 src/CMakeFiles/helloworld.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/main.cpp.s"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp -o CMakeFiles/helloworld.dir/main.cpp.s
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/src/main.cpp -o CMakeFiles/helloworld.dir/main.cpp.s
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.o: src/CMakeFiles/helloworld.dir/flags.make
 src/CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.o: src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.o"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.i"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.i
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.i
 
 src/CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.s"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.s
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sharp/Documents/Qt_Learn/kounter/build/src/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/helloworld.dir/helloworld_autogen/EWIEGA46WW/qrc_resources.cpp.s
 
 # Object files for target helloworld
 helloworld_OBJECTS = \

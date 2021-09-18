@@ -55,7 +55,7 @@ include src/CMakeFiles/helloworld_autogen.dir/progress.make
 
 src/CMakeFiles/helloworld_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sharp/Documents/Qt_Learn/kounter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target helloworld"
-	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/cmake -E cmake_autogen /home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld_autogen.dir/AutogenInfo.json ""
+	cd /home/sharp/Documents/Qt_Learn/kounter/build/src && /usr/bin/cmake -E cmake_autogen /home/sharp/Documents/Qt_Learn/kounter/build/src/CMakeFiles/helloworld_autogen.dir/AutogenInfo.json Debug
 
 helloworld_autogen: src/CMakeFiles/helloworld_autogen
 helloworld_autogen: src/CMakeFiles/helloworld_autogen.dir/build.make

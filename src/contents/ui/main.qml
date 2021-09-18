@@ -13,6 +13,19 @@ Kirigami.ApplicationWindow {
     // i18nc is useful for adding context for translators, also lets strings be changed for different languages
     title: i18nc("@title:window", "Kountdown")
 
+    globalDrawer: Kirigami.GlobalDrawer {
+        isMenu: false
+        actions: [
+            Kirigami.Action {
+                text: i18n("Quit")
+                icon.name: "gtk-quit"
+                shortcut: StandardKey.Quit
+                onTriggered: Qt.quit()
+            }
+        ]
+    }
+    
+
     // Initial page to be loaded on app load
     // 1.Kirigami.Pageを
     pageStack.initialPage: Kirigami.ScrollablePage {
@@ -26,12 +39,6 @@ Kirigami.ApplicationWindow {
         ListModel {
             id: kountdownModel
             // Each ListElement is an element on the list, containing information
-            ListElement { name: "誕生日"; description: "自分の誕生日までの残り日数"; date: 209 }
-        }
-        ListModel {
-            id: kountdownModel2
-            // Each ListElement is an element on the list, containing information
-            ListElement { name: "クリスマス"; description: "クリスマスまでの残り日数"; date:99 }
         }
 
         Component {
@@ -56,7 +63,7 @@ Kirigami.ApplicationWindow {
                     Kirigami.Heading {
                         Layout.fillHeight: true
                         level: 1
-                        text: (date < 100000) ? date : i18n("%1 days", Math.round((date-Date.now())/86400000))
+                        text: (date < 100000) ? date : i18n("%1 日", Math.round((date-Date.now())/86400000))
                     }
 
                     ColumnLayout {
@@ -89,19 +96,59 @@ Kirigami.ApplicationWindow {
         }
 
     }
+    
 
 	actions.main: Kirigami.Action {
 		id: addAction
 		icon.name: "list-add"
-		text: i18nc("@action:button", "カウントダウンを追加する")
-		onTriggered: kountdownModel.append({
-			name: "新しいカード",
-			description: "新しいカードの説明",
-			date: 1000
-		})
+		text: i18nc("@action:button", "カウントダウンを追加")
+        onTriggered: addSheet.open()
 	}
 
-
-
+    Kirigami.OverlaySheet {
+        id: addSheet
+        header: Kirigami.Heading {
+            text: i18nc("@title:window", "カウントダウンを追加")
+        }
+        Kirigami.FormLayout {
+            Controls.TextField {
+                id: nameField
+                Kirigami.FormData.label: i18nc("@label:textbox", "名前:")
+                placeholderText: i18n("イベント名 (必須)")
+                onAccepted: descriptionField.forceActiveFocus()
+            }
+            Controls.TextField {
+                id: descriptionField
+                Kirigami.FormData.label: i18nc("@label:textbox", "説明:")
+                placeholderText: i18n("このイベントの名前（任意）")
+                onAccepted: dateField.forceActiveFocus()
+            }
+            Controls.TextField {
+                id: dateField
+                Kirigami.FormData.label: i18nc("@label:textbox", "日付:")
+                placeholderText: i18n("YYYY-MM-DD")
+                inputMask: "0000-00-00"
+            }
+            Controls.Button {
+                id: doneButton
+                Layout.fillWidth: true
+                text: i18nc("@action:button", "作る")
+                enabled: nameField.text.length > 0
+                onClicked: {
+                    kountdownModel.append({
+                        name: nameField.text, 
+                        description: descriptionField.text, 
+                        //The parse() method parses a string and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
+                        date: Date.parse(dateField.text)
+                    });
+                    nameField.text = ""
+                    descriptionField.text = ""
+                    dateField.text = ""
+                    addSheet.close();
+                }
+            }
+        }
+    }
+    
     }
 }

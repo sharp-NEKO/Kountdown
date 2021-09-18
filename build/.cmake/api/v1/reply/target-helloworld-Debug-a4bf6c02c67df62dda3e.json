@@ -84,7 +84,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -fvisibility=hidden -fvisibility-inlines-hidden  "
+					"fragment" : " -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -g -fvisibility=hidden -fvisibility-inlines-hidden  "
 				},
 				{
 					"backtrace" : 2,
@@ -107,10 +107,6 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_NETWORK_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 2,
@@ -241,7 +237,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -Wdate-time -Wsuggest-override -Wlogical-op",
+				"fragment" : "-fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -Wdate-time -Wsuggest-override -Wlogical-op -g",
 				"role" : "flags"
 			},
 			{
