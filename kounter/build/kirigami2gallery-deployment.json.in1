@@ -1,0 +1,20 @@
+{
+   "qt": "/usr",
+   "sdk": "/path/to/Android/Sdk",
+   "ndk": "/path/to/Android/Sdk/ndk-bundle",
+   "toolchain-prefix": "llvm",
+   "tool-prefix": "llvm",
+   "ndk-host": "linux-x86_64",
+   "application-binary": "kirigami2gallery",
+   "qml-root-path": "/home/sharp/Documents/Qt_Learn/kounter",
+   
+   ##EXTRALIBS##
+   ##EXTRAPLUGINS##
+   "android-package-source-directory": "$<TARGET_PROPERTY:create-apk-kirigami2gallery,ANDROID_APK_DIR>",
+   "stdcpp-path": "/sysroot/usr/lib",
+   "sdkBuildToolsRevision": "26.0.2",
+   "android-min-sdk-version": "21",
+   "android-target-sdk-version": "",
+   "extraPrefixDirs": [ "/home/sharp/Documents/Qt_Learn/kounter/build", "/path/to/Qt5.X.0/5.X/{arch}" ],
+   "architectures": { "armeabi-v7a": "" }
+}

@@ -1,0 +1,4 @@
+src/helloworld_autogen/timestamp: \
+	/home/sharp/Documents/Qt_Learn/kounter/src/CMakeLists.txt \
+	/home/sharp/Documents/Qt_Learn/kounter/src/resources.qrc \
+	/app/bin/cmake
